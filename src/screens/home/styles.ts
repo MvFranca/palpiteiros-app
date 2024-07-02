@@ -25,7 +25,7 @@ export const LeftGeneral = styled.View`
     justify-content: center;
     align-items: center;
 
-    width: 50%;
+    width: 55%;
     gap: 10px;
 `
 export const RightGeneral = styled.View`
@@ -41,7 +41,7 @@ export const RightGeneral = styled.View`
     padding: 10px;
     /* gap: 2px; */
     height: 100%;
-    width: 50%;
+    width: 45%;
     height: 100%;
 
 `
