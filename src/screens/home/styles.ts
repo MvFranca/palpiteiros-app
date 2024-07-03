@@ -7,7 +7,7 @@ export const Container = styled.View`
   height: 100%;
   background-color: ${theme.colors.branco};
   flex-direction: column;
-  padding: 0 20px;
+  padding: 20px;
 `;
 
 export const GeneralInfos = styled.View`

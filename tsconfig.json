@@ -1,9 +1,17 @@
 {
   "extends": "expo/tsconfig.base",
+  
   "compilerOptions": {
-    "strict": true
+    "jsx": "react-native",
+    "module": "esnext", // ou "commonjs" dependendo do seu ambiente
+    "esModuleInterop": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "target": "esnext", // ou a versão do seu target do JavaScript
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "allowJs": true,
+    "types": ["react", "react-native"]
   },
-  "paths": {
-    "@/*": ["./src/*"]
-  }
+  "include": ["src"]
 }
